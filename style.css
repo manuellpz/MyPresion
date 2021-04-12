@@ -1,0 +1,40 @@
+#status{
+  font-weight:bold;
+  font-size:20px;
+  text-align:center;
+  border-radius: 5px;
+  padding:10px;
+}
+#txtSistolica,#txtDiastolica {
+	font-weight: bold;
+	color:navy;
+}
+
+.contenedor{
+	width: 90%;
+	margin:auto;
+}
+
+.hipotenso{
+  background: #cdd591;
+}
+
+.normal{
+  background: #a5bc39;
+}
+
+.alta {
+	background: #ffda46;
+}
+
+.hipertenso_g1 {
+	background: #fdbd46;
+}
+
+.hipertenso_g2 {
+	background: #fa9f2c;
+}
+
+.crisis_hipertensiva {
+	background: #f15139;
+}

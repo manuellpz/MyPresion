@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Control Presion</title>
+	<link rel="stylesheet" href="https://manuellpz.github.io/bootstrap.min.css">
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<div class="contenedor">
+		<h1 class="text-center">Control Presión Arterial</h1><br>
+		<br>
+		Sistólica: <input type="text" id="txtSistolica" class="form-control text-center" required><br><br>
+		Diastólica: <input type="text" id="txtDiastolica" class="form-control text-center" required><br><br>
+		<button id="btnCalcular" onclick="calcularPresion()" class="btn btn-primary btn-block">Calcular</button>
+		<br><br>
+		<p id="status">Status: ?</p>
+	</div>
+	<script src="script.js"></script>
+</body>
+</html>
