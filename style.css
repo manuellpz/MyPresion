@@ -11,7 +11,7 @@
 }
 
 .contenedor{
-	width: 90%;
+	width: 30%;
 	margin:auto;
 }
 
@@ -37,4 +37,13 @@
 
 .crisis_hipertensiva {
 	background: #f15139;
+}
+
+/*Responsive*/
+@media screen and (max-width:770px)
+{
+	.contenedor{
+		width: 90%;
+		margin:auto;
+	}
 }
