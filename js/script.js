@@ -18,7 +18,7 @@ const calcularPresion = () => {
     // status.className = '';
     // status.className = 'hipertenso_g1';
     // status.innerHTML = 'Status: Hipertenso Grado 1';
-  }else if((sistolica > 120 && sistolica <= 129) || (diastolica <= 80)){
+  }else if((sistolica > 120 && sistolica <= 129) || (diastolica > 80)){
     setAlert("Elevada",'Recomendacion: Cambios de estilo de vida y reevaluacion en 3-6 meses','info','yellow')
     // status.className = '';
     // status.className = 'alta';
