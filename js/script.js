@@ -13,7 +13,7 @@ const calcularPresion = () => {
     // status.className = '';
     // status.className = 'hipertenso_g2';
     // status.innerHTML = 'Status: Hipertenso Grado 2';
-  }else if((sistolica >= 130 && sistolica <= 139) || (diastolica > 80 && diastolica <= 89)){
+  }else if((sistolica >= 130 && sistolica <= 139) || (diastolica > 81 && diastolica <= 89)){
     setAlert("Alta - Hipertenso Grado I",'Recomendacion: Cambios de estilo de vida, medicación con control mensual hasta que la presión esté controlada','info','darkorange')
     // status.className = '';
     // status.className = 'hipertenso_g1';
